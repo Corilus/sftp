@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 MAINTAINER Dennis Wagelaar [corilus.be]
 
 # Steps done in one RUN layer:
