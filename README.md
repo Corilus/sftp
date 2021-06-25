@@ -1,13 +1,13 @@
 # SFTP
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Corilus/sftp/build?logo=github)](https://github.com/Corilus/sftp/actions/workflows/build.yml) ![GitHub stars](https://img.shields.io/github/stars/Corilus/sftp?logo=github) ![Docker Stars](https://img.shields.io/docker/stars/Corilus/sftp?label=stars&logo=docker) [![Docker Pulls](https://img.shields.io/docker/pulls/Corilus/sftp?label=pulls&logo=docker)](https://hub.docker.com/r/Corilus/sftp)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Corilus/sftp/build?logo=github)](https://github.com/Corilus/sftp/actions/workflows/build.yml) ![GitHub stars](https://img.shields.io/github/stars/Corilus/sftp?logo=github) ![Docker Stars](https://img.shields.io/docker/stars/corilus/sftp?label=stars&logo=docker) [![Docker Pulls](https://img.shields.io/docker/pulls/Corilus/sftp?label=pulls&logo=docker)](https://hub.docker.com/r/corilus/sftp)
 
 ![OpenSSH logo](https://raw.githubusercontent.com/Corilus/sftp/master/openssh.png "Powered by OpenSSH")
 
 # Supported tags and respective `Dockerfile` links
 
-- [`debian`, `latest` (*Dockerfile*)](https://github.com/Corilus/sftp/blob/master/Dockerfile) ![Docker Image Size (debian)](https://img.shields.io/docker/image-size/Corilus/sftp/debian?label=debian&logo=debian&style=plastic) 
-- [`alpine` (*Dockerfile*)](https://github.com/Corilus/sftp/blob/alpine/Dockerfile) ![Docker Image Size (alpine)](https://img.shields.io/docker/image-size/Corilus/sftp/alpine?label=alpine&logo=Alpine%20Linux&style=plastic)
+- [`debian`, `latest` (*Dockerfile*)](https://github.com/Corilus/sftp/blob/master/Dockerfile) ![Docker Image Size (debian)](https://img.shields.io/docker/image-size/corilus/sftp/debian?label=debian&logo=debian&style=plastic) 
+- [`alpine` (*Dockerfile*)](https://github.com/Corilus/sftp/blob/alpine/Dockerfile) ![Docker Image Size (alpine)](https://img.shields.io/docker/image-size/corilus/sftp/alpine?label=alpine&logo=Alpine%20Linux&style=plastic)
 
 # Securely share your files
 
