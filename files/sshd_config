@@ -14,8 +14,8 @@ X11Forwarding no
 AllowTcpForwarding no
 
 # Force sftp and chroot jail
-Subsystem sftp internal-sftp
-ForceCommand internal-sftp
+Subsystem sftp internal-sftp -f AUTH -l INFO
+ForceCommand internal-sftp -f AUTH -l INFO
 ChrootDirectory %h
 
 # Enable this for more logs

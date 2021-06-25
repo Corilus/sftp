@@ -91,6 +91,8 @@ if [ -d /etc/sftp.d ]; then
 fi
 
 if $startSshd; then
+    log "Starting rsyslogd"
+    exec /usr/sbin/rsyslogd -n &
     log "Executing sshd"
     exec /usr/sbin/sshd -D -e
 else
