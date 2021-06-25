@@ -65,4 +65,7 @@ jobs:
 
       - name: Push images to Docker Hub registry
         if: github.ref == 'refs/heads/master'
-        run: docker push $IMAGE_NAME # no tags specified to include all tags
+        run: |
+          docker push $IMAGE_NAME
+          docker push $IMAGE_NAME:debian
+          docker push $IMAGE_NAME:alpine
