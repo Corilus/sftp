@@ -1,6 +1,6 @@
 # SFTP
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dwagelaar/sftp/build?logo=github) ![GitHub stars](https://img.shields.io/github/stars/dwagelaar/sftp?logo=github) ![Docker Stars](https://img.shields.io/docker/stars/dwagelaar/sftp?label=stars&logo=docker) ![Docker Pulls](https://img.shields.io/docker/pulls/dwagelaar/sftp?label=pulls&logo=docker)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/dwagelaar/sftp/build?logo=github)](https://github.com/dwagelaar/sftp/actions/workflows/build.yml) ![GitHub stars](https://img.shields.io/github/stars/dwagelaar/sftp?logo=github) ![Docker Stars](https://img.shields.io/docker/stars/dwagelaar/sftp?label=stars&logo=docker) [![Docker Pulls](https://img.shields.io/docker/pulls/dwagelaar/sftp?label=pulls&logo=docker)](https://hub.docker.com/r/dwagelaar/sftp)
 
 ![OpenSSH logo](https://raw.githubusercontent.com/dwagelaar/sftp/master/openssh.png "Powered by OpenSSH")
 
