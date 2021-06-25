@@ -1,6 +1,6 @@
 # SFTP
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Corilus/sftp/build?logo=github)](https://github.com/Corilus/sftp/actions/workflows/build.yml) ![GitHub stars](https://img.shields.io/github/stars/Corilus/sftp?logo=github) ![Docker Stars](https://img.shields.io/docker/stars/corilus/sftp?label=stars&logo=docker) [![Docker Pulls](https://img.shields.io/docker/pulls/Corilus/sftp?label=pulls&logo=docker)](https://hub.docker.com/r/corilus/sftp)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Corilus/sftp/build?logo=github)](https://github.com/Corilus/sftp/actions/workflows/build.yml) ![GitHub stars](https://img.shields.io/github/stars/Corilus/sftp?logo=github) ![Docker Stars](https://img.shields.io/docker/stars/corilus/sftp?label=stars&logo=docker) [![Docker Pulls](https://img.shields.io/docker/pulls/corilus/sftp?label=pulls&logo=docker)](https://hub.docker.com/r/corilus/sftp)
 
 ![OpenSSH logo](https://raw.githubusercontent.com/Corilus/sftp/master/openssh.png "Powered by OpenSSH")
 
