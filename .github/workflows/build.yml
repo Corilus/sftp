@@ -9,7 +9,7 @@ on:
     branches: [ master ]
 
 env:
-  IMAGE_NAME: dwagelaar/sftp
+  IMAGE_NAME: Corilus/sftp
 
 jobs:
   build:
