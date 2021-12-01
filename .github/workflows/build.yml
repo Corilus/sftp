@@ -69,3 +69,4 @@ jobs:
           docker push $IMAGE_NAME
           docker push $IMAGE_NAME:debian
           docker push $IMAGE_NAME:alpine
+
