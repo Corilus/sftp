@@ -113,5 +113,7 @@ if [ -n "$dir" ]; then
 fi
 
 # create additional rsyslog sockets for the sftp chrooted users
-mkdir -m2755 "/home/$user/dev"
+if [ ! -d "/home/$user/dev" ]; then
+    mkdir -m2755 "/home/$user/dev" 
+fi
 echo "input(type=\"imuxsock\" Socket=\"/home/$user/dev/log\" CreatePath=\"on\")" >> /etc/rsyslog.d/sftplog.conf
