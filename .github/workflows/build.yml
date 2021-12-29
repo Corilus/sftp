@@ -24,7 +24,7 @@ jobs:
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
         with:
-          ignore: tests/shunit2
+          ignore_paths: tests/shunit2
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
