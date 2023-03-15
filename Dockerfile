@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian:bullseye
 MAINTAINER Dennis Wagelaar [corilus.be]
 
 # Steps done in one RUN layer:

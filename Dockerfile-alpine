@@ -6,7 +6,8 @@ MAINTAINER Dennis Wagelaar [corilus.be]
 # - OpenSSH needs /var/run/sshd to run
 # - Remove generic host keys, entrypoint generates unique keys
 RUN echo "@community http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories && \
-    apk add --no-cache bash shadow@community rsyslog openssh openssh-sftp-server && \
+    apk add --no-cache bash shadow@community rsyslog openssh-server-pam openssh-sftp-server && \
+    ln -s /usr/sbin/sshd.pam /usr/sbin/sshd && \
     mkdir -p /var/run/sshd && \
     rm -f /etc/ssh/ssh_host_*key* && \
     mkdir -p /etc/rsyslog.d
