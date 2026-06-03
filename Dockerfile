@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:bookworm-slim
 MAINTAINER Dennis Wagelaar [corilus.be]
 
 # Steps done in one RUN layer:
